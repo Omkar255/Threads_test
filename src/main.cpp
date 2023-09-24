@@ -61,7 +61,7 @@ int main()
 
   thread th4(&Base::foo, &b);
 
-  thread th5(&Base::foo1);
+  thread th5(&Base::foo1, &b);
 
   // Wait for threads to finish
   // Wait for thread th1 to finish

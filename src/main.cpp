@@ -1,6 +1,7 @@
 // C++ program to demonstrate multi-threading using three different callables
 #include<iostream>
 #include<thread>
+#include<my_inc.h>
 using namespace std;
 
 // A dummy funbction
